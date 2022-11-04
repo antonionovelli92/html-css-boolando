@@ -142,6 +142,9 @@ header{
     display: block;
 }
 /* text */
+.text{
+    margin-bottom: 30px;
+}
 h6{
     font-weight: 100;
 }
