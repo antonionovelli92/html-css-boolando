@@ -17,6 +17,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
     box-shadow: 0 0 10px #666;
     
 }
@@ -91,12 +92,12 @@ header{
 .border{
     border: 2px dashed black;
 }
-.discount-large{
+.discount{
     background-color: #FF0000;
     color: white;
     padding: 5px 10px;
     font-size: 10px;
-    p
+    
 }
 .sostenibility{
     background-color: #008001;
@@ -125,4 +126,19 @@ header{
     position: absolute;
     bottom: 50px;
     left: 43px;
+}
+/* hover */
+.another{
+    background-size: cover;
+    height: 480px;
+    display: block;
+    max-width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card:hover .another{ 
+    
+    display: block;
 }
