@@ -79,6 +79,21 @@ header{
     max-width: 100%;
   }
 
+  /* ? FOOTER */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1A1A1A;
+    min-height: 50px;
+  }
+  
+  .footer-bottom > * {
+    padding: 5px 10px;
+    
+  }
+
 
 
 /* Utils */
@@ -126,6 +141,12 @@ header{
     position: absolute;
     bottom: 70px;
     left: 43px;
+}
+.abslt-sost-uni{
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+
 }
 /* hover */
 .another{
