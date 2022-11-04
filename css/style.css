@@ -141,6 +141,17 @@ header{
 .card:hover .another{ 
     display: block;
 }
+.heart-red{
+    color: red;
+    display: none;
+    padding: 5px 10px;
+    position: absolute;
+    top: 9px;
+    right: 0px;
+}
+.card:hover .heart-red{
+    display: block;
+}
 /* text */
 .text{
     margin-bottom: 30px;
