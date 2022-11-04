@@ -68,12 +68,14 @@ header{
 
   }
   .card{
-    
+    position: relative;
 
   }
-  img{
+  .card img{
     background-size: cover;
-    height: 470px;
+    height: 480px;
+    display: block;
+    max-width: 100%;
   }
 
 
@@ -88,4 +90,36 @@ header{
 }
 .border{
     border: 2px dashed black;
+}
+.discount-large{
+    background-color: #FF0000;
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    p
+}
+.sostenibility{
+    background-color: #008001;
+    color: white;
+    
+
+}
+.hearts{
+    background-color: white;
+    padding: 10px 10px;
+}
+.pad-targ{
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.abslt-disc{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+.abslt-sost{
+    position: absolute;
+    bottom: 50px;
+    left: 43px;
 }
