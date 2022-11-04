@@ -1,0 +1,57 @@
+/* Reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* generics */
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: #FF6800;
+    height: 50px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar > * {
+    padding: 10px;
+    flex-basis: 20%;
+}
+  
+  .navbar-central {
+    flex-grow: 1;
+    text-align: center;
+}
+.navbar-logo{
+    height: 25px;
+}
+  .navbar-menu >*{
+    color: white;
+    text-decoration: none;
+    padding: 0 3px;
+  }
+  
+  .navbar-extra {
+    text-align: right;
+    
+  }
+  .navbar-extra>*{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+  }
+
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
