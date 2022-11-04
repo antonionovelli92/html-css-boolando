@@ -120,11 +120,11 @@ header{
 .abslt-disc{
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 70px;
 }
 .abslt-sost{
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
     left: 43px;
 }
 /* hover */
@@ -139,6 +139,17 @@ header{
     left: 0;
 }
 .card:hover .another{ 
-    
     display: block;
+}
+/* text */
+h6{
+    font-weight: 100;
+}
+h5{
+    color: red;
+    font-weight: bold;
+}
+#old{
+    text-decoration: line-through;
+    color: black;
 }
