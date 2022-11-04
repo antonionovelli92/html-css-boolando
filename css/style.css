@@ -104,9 +104,12 @@ header{
     
 
 }
-.hearts{
+.heart{
     background-color: white;
-    padding: 10px 10px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 9px;
+    right: 0px;
 }
 .pad-targ{
     padding: 5px 10px;
